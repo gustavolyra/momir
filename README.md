@@ -8,10 +8,13 @@ This project is a **Momir** game based on Magic: The Gathering. It uses the **Sc
 ## Circuit Schematic
 The circuit schematic is located inside the `img/` folder. Here are the GPIO pin assignments for this project:
 
-- **GPIO 7 (Pin 10)**: Button for "Up" navigation.
-- **GPIO 6 (Pin 9)**: Button for "Down" navigation.
-- **GPIO 8 (Pin 11)**: Button for "Enter" to confirm a selection.
-- **GPIO 5 (Pin 7)**: Used for RX communication with an external device.
+- **GPIO 8**: Button for "Enter" to confirm a selection.
+- **GPIO 7**: Button for "Down" navigation.
+- **GPIO 6**: Button for "Up" navigation.
+- **GPIO 5**: TX communication with an thermal printer.
+- **GPIO 4**: RX communication with an thermal printer.
+- **GPIO 1**: SCL communication with an Oled Display.
+- **GPIO 0**: SCA communication with an Oled Display.
 
 Please refer to the schematic image `img/schematic.png` for the full wiring diagram.
 
@@ -23,9 +26,10 @@ The OLED display will show information about the game state, such as the connect
 
 
 ### OLED Display Example:
-![Image 1](img/display_images/format.JPG)
-![Image 2](img/display_images/cmc3.JPG)
-![Image 3](img/display_images/info.JPG)
+<img src="img/display_images/format.JPG" width="200" />
+<img src="img/display_images/cmc3.JPG" width="150" />
+<img src="img/display_images/info.JPG" width="100" />
+
 
 ### Thermal Printer Output Example:
 ![Image 4](img/card/card.JPG)
