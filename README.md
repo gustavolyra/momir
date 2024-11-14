@@ -18,12 +18,18 @@ Please refer to the schematic image `img/schematic.png` for the full wiring diag
 ## Display and Printer Images
 The OLED display will show information about the game state, such as the connected Wi-Fi and the generated card details. The generated card details will also be printed on a thermal printer. Here are some example display outputs from the project:
 
+### Schematic Diagrams:
+![Image 4](img/circuit/circuit.png)
+
+
 ### OLED Display Example:
-![Image 1](img/display_images/image1.png)
-![Image 2](img/display_images/image2.png)
+![Image 1](img/display_images/format.png)
+![Image 2](img/display_images/cmc3.png)
+![Image 3](img/display_images/info.png)
 
 ### Thermal Printer Output Example:
-(Include an image of a printed card if you have one)
+![Image 4](img/card/card.JPG)
+
 
 ## Libraries Used
 

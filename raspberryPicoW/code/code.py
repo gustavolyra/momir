@@ -83,7 +83,7 @@ selected_format = 0  # Index inicial
 # Function to display format selection menu on OLED
 def draw_format_selection():
     clearDisplay()
-    oled.text("Selecione o formato:", 0, 0, 1)
+    oled.text("Select the format:", 0, 0, 1)
     for i, format_name in enumerate(formats):
         # Desenha o '>' na linha selecionada
         if i == selected_format:
@@ -110,7 +110,7 @@ while True:
     if not enter_button.value:  
         format_type = formats[selected_format]
         clearDisplay()
-        oled.text("Formato selecionado:", 0, 0, 1)
+        oled.text("Format selected:", 0, 0, 1)
         oled.text(format_type, 0, 10, 1)
         oled.show()
         time.sleep(1)  
