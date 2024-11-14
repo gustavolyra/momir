@@ -23,9 +23,9 @@ The OLED display will show information about the game state, such as the connect
 
 
 ### OLED Display Example:
-![Image 1](img/display_images/format.png)
-![Image 2](img/display_images/cmc3.png)
-![Image 3](img/display_images/info.png)
+![Image 1](img/display_images/format.JPG)
+![Image 2](img/display_images/cmc3.JPG)
+![Image 3](img/display_images/info.JPG)
 
 ### Thermal Printer Output Example:
 ![Image 4](img/card/card.JPG)
