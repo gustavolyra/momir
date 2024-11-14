@@ -31,7 +31,7 @@ The OLED display will show information about the game state, such as the connect
 
 
 ### Thermal Printer Output Example:
-<img src="img/card/card.JPG" width="150" />
+<img src="img/card/card.JPG" width="220" />
 
 
 ## Libraries Used
