@@ -30,11 +30,11 @@ The circuit schematic is located inside the `img/schematic.png` folder. Here are
 The OLED display will show information about the game state, such as the connected Wi-Fi and the generated card details. The generated card details will also be printed on a thermal printer. Here are some example display outputs from the project:
 
 ### OLED Display Example:
-<div style="display: flex; justify-content: space-around;">
-  <img src="img/display_images/format.JPG" width="200" />
-  <img src="img/display_images/cmc3.JPG" width="200" />
-  <img src="img/display_images/info.JPG" width="200" />
-</div>
+
+| <img src="img/display_images/format.JPG" width="200" /> | <img src="img/display_images/cmc3.JPG" width="200" /> | <img src="img/display_images/info.JPG" width="200" /> |
+|:---:|:---:|:---:|
+| Format | CMC 3 | Info |
+
 
 ### Thermal Printer Output Example:
 <img src="img/card/card.JPG" width="220" />
@@ -68,13 +68,6 @@ Once powered up, the Raspberry Pi Pico W will:
 4. Allow navigation using the buttons connected to GPIO pins.
 5. Print the generated card details on the thermal printer.
 
-## License
-This project is open-source and available under the MIT License. See the LICENSE file for more information.
-
----
-
-Feel free to explore the code
-
 ---
 ### FAQ
 
@@ -83,3 +76,11 @@ Feel free to explore the code
 
 #### Q: Can you make this for an Arduino?
 **A:** I intend to create a version of this project for the ESP32. Once that's done, it should be possible to modify the code to work with an Arduino. Stay tuned for future updates!
+
+---
+
+## License
+This project is open-source and available under the MIT License. See the LICENSE file for more information.
+
+
+Feel free to explore the code
