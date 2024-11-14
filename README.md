@@ -33,7 +33,7 @@ The OLED display will show information about the game state, such as the connect
 
 | <img src="img/display_images/format.JPG" width="150" /> | <img src="img/display_images/cmc3.JPG" width="200" /> | <img src="img/display_images/info.JPG" width="200" /> |
 |:---:|:---:|:---:|
-| Format | CMC 3 | Info |
+| Format Seleciton | CMC 3 | Card Information |
 
 
 ### Thermal Printer Output Example:
