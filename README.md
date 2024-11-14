@@ -4,6 +4,12 @@
 
 This project is a **Momir** game based on Magic: The Gathering. It uses the **Scryfall API** (https://scryfall.com/docs/api) to generate random cards for the game. The project runs on a Raspberry Pi Pico W using **CircuitPython** and displays the card information on an OLED display. Additionally, the card details are printed on a **thermal printer** for a physical copy.
 
+### Components
+
+- **OLED Display SSD1306**: A 0.96" I2C OLED display for displaying card information. [View on MakerHero](https://tinyurl.com/3kkb2cfh)
+- **Thermal Printer QR204**: Used to print card details for Magic: The Gathering gameplay. [View on Amazon](https://tinyurl.com/yzubkpzn)
+- **Raspberry Pi Pico W**: A Wi-Fi enabled microcontroller running CircuitPython, which serves as the brain of this project. [View on MakerHero](https://tinyurl.com/yew2ndkm)
+
 
 ## Circuit Schematic
 The circuit schematic is located inside the `img/schematic.png` folder. Here are the GPIO pin assignments for this project:
