@@ -30,14 +30,14 @@ The circuit schematic is located inside the `img/schematic.png` folder. Here are
 The OLED display will show information about the game state, such as the connected Wi-Fi and the generated card details. The generated card details will also be printed on a thermal printer. Here are some example display outputs from the project:
 
 ### OLED Display Example:
-<img src="img/display_images/format.JPG" width="200" />
-<img src="img/display_images/cmc3.JPG" width="200" />
-<img src="img/display_images/info.JPG" width="200" />
-
+<div style="display: flex; justify-content: space-around;">
+  <img src="img/display_images/format.JPG" width="200" />
+  <img src="img/display_images/cmc3.JPG" width="200" />
+  <img src="img/display_images/info.JPG" width="200" />
+</div>
 
 ### Thermal Printer Output Example:
 <img src="img/card/card.JPG" width="220" />
-
 
 ## Libraries Used
 
