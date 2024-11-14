@@ -18,21 +18,20 @@ The circuit schematic is located inside the `img/` folder. Here are the GPIO pin
 
 Please refer to the schematic image `img/schematic.png` for the full wiring diagram.
 
-## Display and Printer Images
-The OLED display will show information about the game state, such as the connected Wi-Fi and the generated card details. The generated card details will also be printed on a thermal printer. Here are some example display outputs from the project:
-
 ### Schematic Diagrams:
 ![Image 4](img/circuit/circuit.png)
 
+## Display and Printer Images
+The OLED display will show information about the game state, such as the connected Wi-Fi and the generated card details. The generated card details will also be printed on a thermal printer. Here are some example display outputs from the project:
 
 ### OLED Display Example:
 <img src="img/display_images/format.JPG" width="200" />
-<img src="img/display_images/cmc3.JPG" width="150" />
-<img src="img/display_images/info.JPG" width="100" />
+<img src="img/display_images/cmc3.JPG" width="200" />
+<img src="img/display_images/info.JPG" width="200" />
 
 
 ### Thermal Printer Output Example:
-![Image 4](img/card/card.JPG)
+<img src="img/card/card.JPG" width="50" />
 
 
 ## Libraries Used
