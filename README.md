@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a **Momir** game based on Magic: The Gathering. It uses the **Scryfall API** to generate random cards for the game. The project runs on a Raspberry Pi Pico W using **CircuitPython** and displays the card information on an OLED display. Additionally, the card details are printed on a **thermal printer** for a physical copy.
+This project is a **Momir** game based on Magic: The Gathering. It uses the **Scryfall API** (https://scryfall.com/docs/api) to generate random cards for the game. The project runs on a Raspberry Pi Pico W using **CircuitPython** and displays the card information on an OLED display. Additionally, the card details are printed on a **thermal printer** for a physical copy.
 
 
 ## Circuit Schematic
