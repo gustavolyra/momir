@@ -6,7 +6,7 @@ This project is a **Momir** game based on Magic: The Gathering. It uses the **Sc
 
 
 ## Circuit Schematic
-The circuit schematic is located inside the `img/` folder. Here are the GPIO pin assignments for this project:
+The circuit schematic is located inside the `img/schematic.png` folder. Here are the GPIO pin assignments for this project:
 
 - **GPIO 8**: Button for "Enter" to confirm a selection.
 - **GPIO 7**: Button for "Down" navigation.
@@ -15,8 +15,6 @@ The circuit schematic is located inside the `img/` folder. Here are the GPIO pin
 - **GPIO 4**: RX communication with an thermal printer.
 - **GPIO 1**: SCL communication with an Oled Display.
 - **GPIO 0**: SCA communication with an Oled Display.
-
-Please refer to the schematic image `img/schematic.png` for the full wiring diagram.
 
 ### Schematic Diagrams:
 ![Image 4](img/circuit/circuit.png)
@@ -70,4 +68,11 @@ This project is open-source and available under the MIT License. See the LICENSE
 
 Feel free to explore the code
 
+---
+### FAQ
 
+#### Q: Why don't you print the card image?
+**A:** Unfortunately, when I try to send the card image as a bitmap to the thermal printer, it ends up printing a series of random characters, which results in unreadable output. Currently, the system only prints the card information in text format.
+
+#### Q: Can you make this for an Arduino?
+**A:** I intend to create a version of this project for the ESP32. Once that's done, it should be possible to modify the code to work with an Arduino. Stay tuned for future updates!
